@@ -17,6 +17,6 @@ def test_lotto():
 
 def test_lotto_negative():
     x = Lotto
-    assert x.lotto(Lotto, 9) == "Failed"
+    assert x.lotto(Lotto, 12) == "Failed"
     print("Successful")
 
